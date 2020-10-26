@@ -3,12 +3,17 @@
     
 <head>
 
-<!--        meta tag-->
+<!--meta tag-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--        title tag-->
+<!--title tag-->
     <title> Samantha | Front End Web Developer</title>
-<!--        css link-->
+<!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!--css link-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
@@ -16,16 +21,16 @@
 
     <!--    HEADER START-->
     <header>
-            <!--        Clickable title link that takes you to index page-->
-        <a href="index.html">
+        <!--        Clickable title link that takes you to index page-->
+        <a href="index.html" id="logo">
             <h1>Samantha</h1>
-            <h2>Front End Web</h2>
+            <h2>Front End Web Developer</h2>
         </a>
             <!--        NAVIGATION START-->
         <nav>
     <!--        List of links-->
             <ul>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="#" class="selected">Portfolio</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -34,18 +39,50 @@
     <!--        HEADER END-->
     </header>
 
+    <div id="wrapper">
+        <!--GALLERY START-->
 
+        <!--START LIST OF PHOTOS-->
+        <ul id="gallery">
+            <li>
+                <img src="img/numbers-01.jpg" alt="Number 1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+            </li>
+            
+            <li>
+                <img src="img/numbers-02.jpg" alt="Number 2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+            </li>
+            
+            <li>
+                <img src="img/numbers-06.jpg" alt="Number 6">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+            </li>
+            
+            <li>
+                <img src="img/numbers-09.jpg" alt="Number 9">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+            </li>
+            
+             <li>
+                <img src="img/numbers-12.jpg" alt="Number 12">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
+            </li>
+        </ul>
+        <!--END LIST OF PHOTOS-->
 
+        <!--GALLERY END-->
+    </div>
 
-<!--        FOOTER START-->
+    <!--        FOOTER START-->
     <footer>
-<!--        twitter link opens to new tab-->
-        <a href="" target="_blank">Twitter</a>
-<!--        fb link that opens to new tab-->
-        <a href="" target="_blank">Facebook</a>
-<!--        copyright-->
+    <!--        twitter link opens to new tab-->
+        <a href="https://twitter.com" target="_blank"><img src="img/twitter-wrap.png" class="social-icon"></a>
+    <!--        fb link that opens to new tab-->
+        <a href="https://facebook.com" target="_blank"><img src="img/facebook-wrap.png" class="social-icon"></a>
+    <!--        copyright-->
         <p>&copy; 2020 Samantha</p>
-<!--        FOOTER END-->
+    <!--        FOOTER END-->
     </footer>
 </body>
 

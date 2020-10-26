@@ -3,12 +3,17 @@
     
 <head>
 
-<!--        meta tag-->
+<!-- meta tag-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--        title tag-->
+<!--title tag-->
     <title> Samantha | Front End Web Developer</title>
-<!--        css link-->
+<!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+<!--css link-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
 
 </head>
 
@@ -17,7 +22,7 @@
     <!--    HEADER START-->
     <header>
             <!--        Clickable title link that takes you to index page-->
-        <a href="index.html">
+        <a href="index.html" id="logo">
             <h1>Samantha</h1>
             <h2>Front End Web</h2>
         </a>
@@ -26,26 +31,43 @@
     <!--        List of links-->
             <ul>
                 <li><a href="index.html">Portfolio</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#" class="selected">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
     <!--        NAVIGATION END-->
         </nav>
     <!--        HEADER END-->
     </header>
+    
+    <div id="wrapper">
+        <section>
+            <!--START OF FIRST COLUMN-->
 
+            <!--image-->
+            <img src="#" class="profile-photo">
+            <!--END OF FIRST COLUMN-->
 
+            <!--START OF SECOND COLUMN-->
+
+            <!--title-->
+            <h3>ABOUT</h3>
+            <!--about paragraph-->
+            <p>Hello, I am Samantha. This is my portfolio where I share all of my favorite work</p>
+            <p>If you would like to follow me on Twitter my username is <a href="https://twitter.com" target="_blank">Username</a></p>
+            <!--END OF SECOND COLUMN-->
+        </section>
+    </div>
 
 
 <!--        FOOTER START-->
     <footer>
-<!--        twitter link opens to new tab-->
-        <a href="" target="_blank">Twitter</a>
-<!--        fb link that opens to new tab-->
-        <a href="" target="_blank">Facebook</a>
-<!--        copyright-->
+    <!--        twitter link opens to new tab-->
+        <a href="https://twitter.com" target="_blank"><img src="img/twitter-wrap.png" class="social-icon"></a>
+    <!--        fb link that opens to new tab-->
+        <a href="https://facebook.com" target="_blank"><img src="img/facebook-wrap.png" class="social-icon"></a>
+    <!--        copyright-->
         <p>&copy; 2020 Samantha</p>
-<!--        FOOTER END-->
+    <!--        FOOTER END-->
     </footer>
 </body>
 

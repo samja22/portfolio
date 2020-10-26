@@ -3,12 +3,16 @@
     
 <head>
 
-<!--        meta tag-->
+<!--meta tag-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--        title tag-->
+<!--title tag-->
     <title> Samantha | Front End Web Developer</title>
-<!--        css link-->
+<!--fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+<!--css link-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
@@ -16,33 +20,55 @@
 
     <!--    HEADER START-->
     <header>
-            <!--        Clickable title link that takes you to index page-->
-        <a href="index.html">
+        <!--        Clickable title link that takes you to index page-->
+        <a href="index.html" id="logo">
             <h1>Samantha</h1>
             <h2>Front End Web</h2>
         </a>
-            <!--        NAVIGATION START-->
+        <!--        NAVIGATION START-->
         <nav>
-    <!--        List of links-->
+            <!--        List of links-->
             <ul>
                 <li><a href="index.html">Portfolio</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="selected">Contact</a></li>
             </ul>
-    <!--        NAVIGATION END-->
+        <!--        NAVIGATION END-->
         </nav>
     <!--        HEADER END-->
     </header>
 
+    <div id="wrapper">
+        <!-- START OF FIRST COLUMN-->
+        <section id="primary">
+            <!-- title-->
+            <h3>General Information</h3>
+            <!-- general information-->
+            <p>For general inquiries, the best way to reach me is by <a href="mailto:test@test.com">email</a>.</p>
+        </section>
+        <!-- END OF FIRST COLUMN-->
+        
+        <section id="secondary">
+        <!-- START OF SECOND COLUMN-->
 
-
+            <!-- title-->
+            <h3>Contact Information</h3>
+            <!-- contact information-->
+            <ul class="contact-info">
+                <li class="phone"><a href="tel:thenumber" >Phone</a></li>
+                <li class="email"><a href="mailto:test@test.com" >Email address</a></li>
+                <li class="twitter"><a href="https://twitter.com" target="_blank" >Twitter</a></li>
+            </ul>
+        </section>
+        <!-- END OF SECOND COLUMN-->
+    </div>
 
 <!--        FOOTER START-->
     <footer>
 <!--        twitter link opens to new tab-->
-        <a href="" target="_blank">Twitter</a>
+        <a href="https://twitter.com" target="_blank"><img src="img/twitter-wrap.png" class="social-icon"></a>
 <!--        fb link that opens to new tab-->
-        <a href="" target="_blank">Facebook</a>
+        <a href="https://facebook.com" target="_blank"><img src="img/facebook-wrap.png" class="social-icon"></a>
 <!--        copyright-->
         <p>&copy; 2020 Samantha</p>
 <!--        FOOTER END-->
